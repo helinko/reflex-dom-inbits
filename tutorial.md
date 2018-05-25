@@ -50,7 +50,7 @@ However the FRP framework will not allow you to do multiple calls to *getChar* w
 
 With this trick, *getChar* is now a pure function.
 
-In the type declaration of a reflex function the time parameter is always shown explicitely.
+In the type declaration of a reflex function the time parameter is always shown explicitly.
 Normally a type parameter with the name *t* is used.
 However it's **never** necessary to supply this parameter as a programmer when you call the function.
 
@@ -164,7 +164,7 @@ To write Reflex programs, very often we use some of the following GHC Haskell la
 ```{-# LANGUAGE OverloadedStrings #-}```
 
 We need it, because *Reflex* uses *Text* instead of *String*. The extension *OverloadedStrings*  allows automatic conversion of string constants like "I'm a String"
-to the correct string type. We don't need to pack and unpack the string constants ourselfs.
+to the correct string type. We don't need to pack and unpack the string constants ourselves.
 
 ```{-# LANGUAGE RecursiveDo #-}```
 
