@@ -108,7 +108,7 @@ Later we will see other functions to transform events.
 
 ## Behavior
 
-A *Behavior* is a container for a value, that changes over time. Other than events, Behaviors always have a value. 
+A *Behavior* is a container for a value, that changes over time. Unlike Events, Behaviors always have a value. 
 It is not possible to be notified when a Behavior changes.
 
 In Reflex the data type *Behavior* has the following simplified type:
