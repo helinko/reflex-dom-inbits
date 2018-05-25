@@ -211,7 +211,7 @@ We normally use the function *mempty* to create an empty map,
 the function (=:) to create a singelton map
 and the function *mappend* rsp *(<>)* to combine two maps.
 
-Rarely we will use other libraries, eg
+Sometimes we will use other libraries, eg
 
 * import Data.FileEmbed  - library *file-embed* on Hackage and installed by reflex-platform.
 * import Data.Text.Encoding - will be installed with reflex-dom
