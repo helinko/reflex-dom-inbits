@@ -266,7 +266,7 @@ type Widget x =
        Spider (WithWebView x (PerformEventT Spider (SpiderHost Global))))
 ~~~ 
 
-*PostBuildT* is a monad transformer. It set's up a monadic environement for reflex-dom. 
+*PostBuildT* is a monad transformer. It set's up a monadic environment for reflex-dom. 
 As side effects, some of the reflex-dom functions will create and change the DOM elements. 
 To follow this tutorial you don't need to understand the concepts behind monad transformers.
 
